@@ -1,0 +1,221 @@
+body {
+    background-image: url(walp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#navbar{
+    background-color: transparent; 
+    backdrop-filter: blur(5px); 
+    font-family: Sniglet;
+}
+#portfolio {
+    margin: 1%;
+    font-family: Sniglet;
+}
+#home {
+    color: black;
+    margin: 1%;
+    font-family: Sniglet;
+}
+#education {
+    color: black;
+    margin: 1%;
+    font-family: Sniglet;
+}
+#team {
+    color: black;
+    margin: 1%;
+    font-family: Sniglet;
+}
+#dropdown {
+    font-family: Sniglet;
+}
+#home:hover{
+    color: white;
+    box-shadow: 2px 2px 2px 2px currentColor;
+}
+#education:hover{
+    color: white;
+    box-shadow: 2px 2px 2px 2px currentColor;
+}
+#team:hover{
+    color: white;
+    box-shadow: 2px 2px 2px 2px currentColor;
+}
+#heading {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 20vh;
+    margin: 150px 0 0;
+    font-family: modak;
+}
+#heading h1 {
+    font-size: 7vw;
+    margin: 0;
+    background: linear-gradient(to bottom left, rgb(47, 188, 234), rgb(227, 87, 232));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+#pics {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#car1, #car2, #car3 {
+    border-radius: 25px;
+}
+#img1 {
+    border-radius: 25px;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    width: 300px; 
+    height: auto;
+}
+#img2 {
+    border-radius: 25px;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    width: 300px; 
+    height: auto;
+}
+#img3 {
+    border-radius: 25px;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    width: 300px; 
+    height: auto;
+}
+#img4 {
+    border-radius: 25px;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    width: 300px; 
+    height: auto;
+}
+#img1:hover {
+    transition: transform 0.4s ease, filter 0.4s ease; /* Smooth transition */
+    transform: scale(1.1); /* Scale the image to 110% */
+    filter: brightness(1.2); /* Increase brightness */
+}
+#img2:hover {
+    transition: transform 0.4s ease, filter 0.4s ease; /* Smooth transition */
+    transform: scale(1.1); /* Scale the image to 110% */
+    filter: brightness(1.2); /* Increase brightness */
+}
+#img3:hover {
+    transition: transform 0.4s ease, filter 0.4s ease; /* Smooth transition */
+    transform: scale(1.1); /* Scale the image to 110% */
+    filter: brightness(1.2); /* Increase brightness */
+}
+#img4:hover {
+    transition: transform 0.4s ease, filter 0.4s ease; /* Smooth transition */
+    transform: scale(1.1); /* Scale the image to 110% */
+    filter: brightness(1.2); /* Increase brightness */
+}
+
+#footer {
+    background-color: transparent; 
+    backdrop-filter: blur(50px);
+    font-family: Sniglet;
+    margin: 100px 0 -50px 0;
+}
+#foot {
+    margin: 1%;
+}
+.fa {
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.fa:hover {
+    opacity: 0.7;
+    background: linear-gradient(to bottom left, rgb(47, 188, 234), rgb(227, 87, 232));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+#intro, #p1 {
+    text-decoration: none;
+    color: black;
+}
+#p2 {
+    color: black;
+}
+#intro:hover, #p1:hover {
+    opacity: 0.7;
+    color: white;
+}
+
+#carousel1 {
+    max-width: 500px;
+    margin: auto;
+}
+#carouselExampleIndicators .carousel-inner img {
+    width: 100%; /* makes sure images fit inside the container */
+    height: auto; 
+}
+#pnames{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 15vh;
+    margin: 90px 0 0;
+    font-family: modak;
+    font-size: 5vw;
+}
+#carouselExampleIndicators {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 2%;
+    height: 500px; /* Adjust height */
+}
+  
+#carouselExampleIndicators .carousel-inner .carousel-item img {
+    height: 100%; /* Stretch image to fill the height of the container */
+    object-fit: cover; /* Ensure images cover the area without distortion */
+}
+
+#infojohn {
+    text-align: center;
+    padding: 70px; 
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+    width: 400px;
+    font-family: Sniglet;
+    margin-bottom: 2%;
+}
+#cards {
+    margin: 100px 50px 20px 50px ;
+}
+#card1 {
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+#cardsimg {
+    max-width: 130px;
+    max-height: 130px;
+    margin: -50px auto 0;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+.card-body {
+    font-family: sniglet;
+    text-align: center;
+    margin: 20px;
+}
+#links {
+    width: 50px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    color: black;
+    gap: 20px;
+}
